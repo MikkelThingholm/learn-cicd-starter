@@ -25,7 +25,7 @@ func TestGetAPIKey(t *testing.T) {
 		{
 			input:   map[string][]string{"Authorization": {"abc"}},
 			want:    "",
-			wantErr: false,
+			wantErr: true,
 		},
 	}
 
